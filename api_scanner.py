@@ -41,9 +41,9 @@ USER_AGENTS = [
 
 # Proxies for IP rotation
 PROXIES = [
-    "http://proxy1:port",
-    "http://proxy2:port",
-    "http://proxy3:port"
+    "https://177.234.209.80:999",
+    "https://8.218.30.233:3228",
+    "http://38.43.123.134:999"
 ]
 
 # CAPTCHA API
