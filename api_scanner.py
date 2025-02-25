@@ -47,7 +47,7 @@ PROXIES = [
 ]
 
 # CAPTCHA API
-CAPTCHA_API_KEY = "YOUR_2CAPTCHA_API_KEY"  # Replace with your 2Captcha API key
+CAPTCHA_API_KEY = "5aed7d058047159647ee706133480864"  # Replace with your 2Captcha API key
 CAPTCHA_SOLVE_URL = "http://2captcha.com/in.php"
 CAPTCHA_RESULT_URL = "http://2captcha.com/res.php"
 
