@@ -328,7 +328,7 @@ class APIScanner:
             print(Fore.RED + f"[!] Fatal error during scanning: {str(e)}" + Style.RESET_ALL)
             logging.error(f"Fatal error during scanning: {str(e)}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":  # <-- Fix: Use double quotes (") instead of single (')
     parser = argparse.ArgumentParser(description="Advanced API Security Scanner")
     parser.add_argument("-u", "--url", required=True, help="Base URL of the API")
     parser.add_argument("-w", "--wordlist", help="Custom wordlist for endpoint discovery")
